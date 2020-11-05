@@ -1,0 +1,355 @@
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .top-address span:nth-child(2) {
+        display: none;
+    }
+    .main-nav nav ul li {
+        margin-right: 12px;
+    }
+    .hero-text h1 {
+        font-size: 58px;
+    }
+    .hero-caption p {
+        padding-right: 100px;
+    }
+    .single-slider-one,
+    .single-slider-two {
+        height: 640px;
+    }
+    .hero-text .two h1 {
+        padding-right: 47%;
+    }
+    .hero-text .two p {
+        padding-right: 42%;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .section-title h1 {
+        font-size: 45px;
+    }
+    .team-avatar {
+        text-align: -moz-center;
+    }
+    .abt-title h1 {
+        font-size: 45px;
+    }
+    .news-box {
+        padding: 78px 31px 80px 37px;
+    }
+    .footer-title h3 {
+        font-size: 14px;
+    }
+    /* service page 01 starts */
+    .section-title .white {
+        font-size: 42px;
+    }
+    .faq-content {
+        padding: 34px;
+    }
+    .employer-img img {
+        width: 100%;
+    }
+    .employer-text {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .employer-text h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    /* service page 01 ends */
+    /* service-page 02 starts */
+    .service-page-two-padding .service-content {
+        padding: 30px 20px 20px 15px
+    }
+    /* service page 02 ends */
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .top-address span:nth-child(1) {
+        display: none;
+    }
+    .header-menu-cta-top a {
+        display: none;
+    }
+    .main-menu-area {
+        padding-top: 15px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 52px;
+        padding-right: 25%;
+    }
+    .hero-caption p,
+    .two p {
+        padding-right: 27%;
+    }
+    .single-slider-one,
+    .single-slider-two {
+        height: 640px;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .price-box {
+        padding: 70px 21px;
+    }
+    .price-top h2 {
+        font-size: 80px;
+    }
+    .price-body ul {
+        text-align: left;
+    }
+    .price-box .button {
+        padding: 20px 12px;
+        font-size: 12px;
+    }
+    .footer-title h3 {
+        font-size: 14px;
+    }
+    /* service page 01 starts */
+    .service-text .hero-caption h1 {
+        font-size: 42px;
+    }
+    .appointment {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .employer-img img {
+        width: 100%;
+    }
+    /* service page 01 ends */
+}
+
+
+/* small mobile */
+
+@media (max-width: 767px) {
+    .top-header {
+        display: none;
+    }
+    .header-menu-cta-top a {
+        display: none;
+    }
+    .main-menu-area {
+        padding-top: 15px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 40px;
+        padding-right: 2%;
+    }
+    .single-slider-one,
+    .single-slider-two {
+        height: 670px;
+    }
+    .active-slider .slick-next {
+        display: none;
+    }
+    .active-slider .slick-prev {
+        display: none;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .abt-small-counter {
+        bottom: 30px;
+        left: 47px;
+    }
+    .abt-title h1 {
+        font-size: 36px;
+    }
+    .section-title h1 {
+        font-size: 32px;
+    }
+    .service-area {
+        padding: 0;
+    }
+    .cta-area {
+        padding: 115px 0px;
+    }
+    .header-menu-cta-top {
+        margin-left: 0px;
+    }
+    .team-area {
+        padding: 115px 0;
+    }
+    .team-avatar {
+        text-align: -moz-center;
+    }
+    .team-avatar img {
+        width: 100%;
+    }
+    .newsletter-area {
+        padding: 120px 0;
+    }
+    .abt-title h1 {
+        font-size: 29px;
+    }
+    .news-box {
+        padding: 78px 28px 80px 28px;
+    }
+    .news-form form button {
+        position: static;
+        margin-top: 10px;
+    }
+    .news-form input {
+        height: 55px;
+    }
+    .pricing-area {
+        padding: 120px 0;
+    }
+    .price-box .button {
+        padding: 20px 12px;
+        font-size: 12px;
+    }
+    .price-top h2 {
+        font-size: 80px;
+    }
+    .price-top h4 {
+        margin-bottom: 24px;
+    }
+    .news-update-area {
+        padding: 120px 0;
+    }
+    .footer-top {
+        padding: 45px 0;
+    }
+    .footer-title h3 {
+        font-size: 14px;
+    }
+    .footer-social {
+        text-align: left;
+        margin-top: 20px;
+    }
+    /* service page 01 starts */
+    .service-text .hero-caption h1 {
+        font-size: 42px;
+    }
+    .serv-bread-align {
+        justify-content: start;
+    }
+    .faq-content {
+        padding: 17px;
+    }
+    .faq-content .nice-select {
+        padding-left: 10px;
+    }
+    .employer-text {
+        padding: 32px;
+    }
+    .employer-text h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .appointment {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .employer-img img {
+        width: 100%;
+    }
+    .footer-form button {
+        right: 14px;
+    }
+    /* service page 01 ends */
+    /* service 02 starts */
+    .service-area-two {
+        padding-top: 115px;
+        padding-bottom: 90px;
+    }
+    /* service 02 ends */
+}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .top-header {
+        display: none;
+    }
+    .header-menu-cta-top a {
+        display: none;
+    }
+    .main-menu-area {
+        padding-top: 15px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 40px;
+        padding-right: 2%;
+    }
+    .single-slider-one,
+    .single-slider-two {
+        height: 570px;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .abt-title h1 {
+        font-size: 36px;
+    }
+    .section-title h1 {
+        font-size: 32px;
+    }
+    .cta-area {
+        padding: 89px 54px;
+    }
+    .team-avatar {
+        text-align: -moz-center;
+    }
+    .team-avatar img {
+        width: 85%;
+    }
+    .abt-title h1 {
+        font-size: 29px;
+    }
+    .news-box {
+        padding: 40px 20px;
+    }
+    .news-form form button {
+        position: static;
+        margin-top: 10px;
+    }
+    .news-form input {
+        height: 55px;
+    }
+    .footer-social {
+        text-align: left;
+        margin-top: 20px;
+    }
+    /* service page 01 starts */
+    .serv-bread-align {
+        justify-content: start;
+    }
+    .service-text .hero-caption h1 {
+        font-size: 42px;
+    }
+    .appointment {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .employer-img img {
+        width: 100%;
+    }
+    /* service page 01 ends */
+    /* service 02 starts */
+    .service-area-two {
+        padding-top: 115px;
+        padding-bottom: 90px;
+    }
+    /* service 02 ends */
+}
