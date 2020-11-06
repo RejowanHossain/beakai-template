@@ -70,6 +70,53 @@
         padding: 30px 20px 20px 15px
     }
     /* service page 02 ends */
+    /* service details page starts */
+    .service-detail-area {
+        padding: 120px 0;
+    }
+    .service-detail-icon svg {
+        font-size: 25px;
+        margin-right: 14px;
+    }
+    .point-list h3 {
+        font-size: 13px;
+    }
+    .margin-right-service {
+        margin-right: 10px;
+    }
+    .point-list ul li {
+        font-size: 12px;
+    }
+    .service-widgets {
+        padding: 25px;
+        padding-top: 25px;
+    }
+    .widget-title h3 {
+        font-size: 22px;
+    }
+    .widget-list ul li a {
+        display: block;
+    }
+    .widget-icon svg {
+        font-size: 25px;
+    }
+    .widget-name {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .widget-input svg {
+        font-size: 12px;
+        top: 24;
+    }
+    .widget-input input {
+        padding-left: 35px;
+    }
+    .widget-contact-form .nice-select {
+        padding-left: 32px;
+        font-size: 12px;
+    }
+    /* service detail page ends */
 }
 
 
@@ -132,6 +179,11 @@
         width: 100%;
     }
     /* service page 01 ends */
+    /* service details page starts */
+    .service-detail-area {
+        padding: 110px 0px;
+    }
+    /* service details page ends */
 }
 
 
@@ -272,6 +324,35 @@
         padding-bottom: 90px;
     }
     /* service 02 ends */
+    /* service details page starts */
+    .service-detail-area {
+        padding: 90px 0px;
+    }
+    .service-detail-img img {
+        width: 100%;
+    }
+    .service-detail-point {
+        display: block;
+    }
+    .margin-right-service {
+        margin-bottom: 25px;
+    }
+    .file-box {
+        padding: 15px 18px;
+    }
+    .inner-file-single .file-size {
+        display: none;
+    }
+    .service-widgets {
+        padding: 33px;
+    }
+    .service-widgets {
+        padding: 21px;
+    }
+    .widget-container {
+        padding-left: 14px;
+    }
+    /* service details page ends */
 }
 
 
@@ -352,4 +433,18 @@
         padding-bottom: 90px;
     }
     /* service 02 ends */
+    /* service details page starts */
+    .service-detail-area {
+        padding: 110px 0px;
+    }
+    .service-detail-img img {
+        width: 100%;
+    }
+    .service-detail-point {
+        display: block;
+    }
+    .margin-right-service {
+        margin-bottom: 25px;
+    }
+    /* service details page ends */
 }

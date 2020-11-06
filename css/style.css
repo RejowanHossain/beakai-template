@@ -1308,10 +1308,203 @@ body {
 }
 
 
-/* .service-box:hover  {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 16px 32px 0px rgba(196, 203, 255, 0.3);
-} */
-
-
 /* service page 02 ends */
+
+
+/* service detail page starts */
+
+.service-detail-area {
+    padding: 120px 100px;
+}
+
+.service-detail-img {
+    margin-bottom: 40px;
+}
+
+.service-detail-title {
+    margin-bottom: 40px;
+}
+
+.service-detail-title h5 {
+    color: #3C54ED;
+    ;
+}
+
+.service-detail-point {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    display: flex;
+}
+
+.box {
+    display: flex;
+}
+
+.margin-right-service {
+    margin-right: 40px;
+}
+
+.service-detail-icon svg {
+    color: #086AD8;
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.point-list h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+    color: #223645;
+    font-weight: 400;
+}
+
+.point-list ul li {
+    margin-bottom: 12px;
+}
+
+.point-list ul li svg {
+    color: #086AD8;
+    margin-right: 10px;
+}
+
+.service-showcase {
+    margin-bottom: 50px;
+}
+
+.showcase-img {
+    margin-bottom: 30px;
+}
+
+.showcase-img img {
+    width: 100%;
+}
+
+.file-box {
+    margin-bottom: 20px;
+    border: 2px solid #e0e9ff;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 48px;
+}
+
+.inner-file-single img {
+    margin-right: 20px;
+}
+
+.inner-file-single span {
+    font-weight: 500;
+    color: #223645;
+    margin-top: 12px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.inner-file-single .file-size {
+    color: #647589;
+    font-weight: 400;
+    float: right;
+}
+
+.widget-container {
+    padding-left: 40px;
+}
+
+.service-widgets {
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(200, 183, 255, 0.2);
+    border-top: 6px solid #d2a98e;
+    padding-top: 40px;
+}
+
+.widget-title h3 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #223645;
+}
+
+.widget-list li {
+    margin-top: 20px;
+}
+
+.widget-list ul li a {
+    display: flex;
+    border-bottom: 2px solid #f2edff;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.widget-list ul li:last-child a {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.widget-icon svg {
+    font-size: 40px;
+    line-height: 1;
+    color: #3C54ED;
+}
+
+.widget-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #223645;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+.widget-input {
+    margin-bottom: 20px;
+}
+
+.widget-input input {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    padding-left: 60px;
+    border: 2px solid #f0f8ff;
+    color: #647589;
+    font-weight: 400;
+    position: relative;
+}
+
+.widget-input svg {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    font-size: 14px;
+    color: #d2a98e;
+    top: 22px;
+    left: 30px;
+    z-index: 99;
+}
+
+.widget-contact-form .nice-select {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-left: 60px;
+    border: 2px solid #f0f8ff;
+    color: #647589;
+    font-weight: 400;
+    padding-top: 8px;
+    opacity: 0.8;
+}
+
+.widget-btn {
+    margin-top: 30px;
+}
+
+.widget-banner img {
+    width: 100%;
+}
+
+
+/* service detail page ends */
