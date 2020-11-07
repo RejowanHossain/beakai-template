@@ -117,6 +117,17 @@
         font-size: 12px;
     }
     /* service detail page ends */
+    /* team 01 page starts */
+    .team-avatar img {
+        width: 100%;
+    }
+    .team-map {
+        padding: 115px 0;
+    }
+    .count-text p {
+        padding: 0;
+    }
+    /* team 01 page ends */
 }
 
 
@@ -184,6 +195,17 @@
         padding: 110px 0px;
     }
     /* service details page ends */
+    /* team 01 page starts */
+    .team-avatar img {
+        width: 100%;
+    }
+    .team-map {
+        padding: 115px 0;
+    }
+    .count-text p {
+        padding: 0;
+    }
+    /* team 01 page ends */
 }
 
 
@@ -353,6 +375,15 @@
         padding-left: 14px;
     }
     /* service details page ends */
+    .single-satisfied {
+        display: block;
+    }
+    .single-satisfied .sat-right {
+        margin-left: 0;
+    }
+    .single-satisfied .ml {
+        margin-left: 0;
+    }
 }
 
 
@@ -446,5 +477,13 @@
     .margin-right-service {
         margin-bottom: 25px;
     }
+    /* team 01 page starts */
+    .team-map {
+        padding: 115px 0;
+    }
+    .count-text p {
+        padding: 0;
+    }
+    /* team 01 page ends */
     /* service details page ends */
 }

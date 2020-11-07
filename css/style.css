@@ -552,7 +552,7 @@ body {
 /* service page appointment section */
 
 .appointment {
-    background: url(../img/slider-bg-3.jpg);
+    background: url(../img/map.png);
 }
 
 
@@ -560,6 +560,10 @@ body {
 
 .section-title .white {
     color: #fff !important;
+}
+
+.white {
+    text-transform: capitalize;
 }
 
 
@@ -1508,3 +1512,102 @@ body {
 
 
 /* service detail page ends */
+
+
+/* team page 01 starts */
+
+.team-map {
+    background: url(../img/map.png);
+}
+
+.single-satisfied {
+    margin-bottom: 50px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.sat-right {
+    margin-left: 28px;
+}
+
+.ml {
+    margin-left: 51px;
+}
+
+.sat-left h1 {
+    color: #d2a98e;
+    font-size: 60px;
+    font-family: Poppins, Bangla1081, sans-serif;
+    font-weight: 600;
+}
+
+.sat-right svg {
+    margin-right: 10px;
+}
+
+.sat-right h5 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.sat-right p {
+    color: #899dab;
+}
+
+
+/* counetr */
+
+.counter-area {
+    padding-top: 115px;
+    padding-bottom: 80px;
+}
+
+.count-text {
+    margin-top: 10px;
+}
+
+.single-count {
+    margin-bottom: 30px;
+}
+
+.single-count svg {
+    font-size: 60px;
+    margin-bottom: 18px;
+    color: #d2a98e;
+}
+
+.single-count h1 {
+    font-weight: 600;
+    color: #223645;
+    font-size: 50px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+.single-count h6 {
+    color: #777;
+    position: relative;
+    margin-bottom: 20px;
+    font-style: 14px;
+    text-transform: capitalize;
+}
+
+.single-count h6::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    top: 31px;
+    background: #e8ebff;
+    left: 44%;
+    margin: auto;
+    bottom: 0;
+}
+
+.count-text p {
+    width: 100%;
+    padding: 0 52px;
+}
+
+
+/* team page 01 ends */
