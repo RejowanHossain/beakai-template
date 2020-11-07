@@ -1679,3 +1679,53 @@ body {
 
 
 /* team 02 page ends */
+
+
+/* team details start */
+
+.single-photo img {
+    width: 100%;
+}
+
+.mtop {
+    margin-top: 30px;
+}
+
+.map iframe {
+    border: 0;
+    width: 100%;
+    height: 350px;
+}
+
+.widget-name span {
+    display: block;
+    color: #647589;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+
+.detail-social {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-social ul {
+    background: #086AD8;
+    display: inline-block;
+    padding: 16px 30px;
+}
+
+.detail-social li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.detail-social li a {
+    color: #fff;
+}
+
+
+/* team details end */

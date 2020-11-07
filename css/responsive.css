@@ -128,6 +128,11 @@
         padding: 0;
     }
     /* team 01 page ends */
+    /* team details starts */
+    .detail-social ul {
+        padding: 16px 25px;
+    }
+    /* team detail ends */
 }
 
 
