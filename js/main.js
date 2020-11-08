@@ -88,6 +88,94 @@ $(document).ready(function() {
             }
         ]
     });
+
+    // testimonial slider
+    $('.testi-slide').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        // prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+        // nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 550,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    // brand slider
+    $('.brand-slide').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        // prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+        // nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 550,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
+
+
     /* magnificPopup video view */
     $('.pop').magnificPopup({
         type: 'iframe',

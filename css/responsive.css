@@ -133,6 +133,14 @@
         padding: 16px 25px;
     }
     /* team detail ends */
+    /* homepage03 starts */
+    .header-3-cta:first-child {
+        display: none;
+    }
+    .hero-2-text-box .hero-caption h1 {
+        font-size: 55px;
+    }
+    /* hompepage 03 ends */
 }
 
 
@@ -211,6 +219,20 @@
         padding: 0;
     }
     /* team 01 page ends */
+    /* homepage 03 starts */
+    .theme-3-bg {
+        background: transparent;
+    }
+    .theme-3-social {
+        display: none;
+    }
+    .header-3-cta {
+        display: none;
+    }
+    .hero-2-text-box .hero-caption h1 {
+        font-size: 50px;
+    }
+    /* homepage 03 ends */
 }
 
 
