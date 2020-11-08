@@ -178,6 +178,14 @@ body {
     margin-left: 30px;
 }
 
+.theme-3-social ul li a {
+    color: #fff;
+}
+
+.theme-3-social ul li a:hover {
+    color: #fff;
+}
+
 
 /* main menu ends */
 
@@ -1729,3 +1737,100 @@ body {
 
 
 /* team details end */
+
+
+/* Homepage 03 starts */
+
+
+/*top bar starts */
+
+.top-bar-3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-3 img {
+    width: 162px;
+}
+
+.header-3-cta {
+    float: left;
+    display: flex;
+    border-right: 1px solid #ededed;
+    padding-right: 22px;
+    margin-right: 22px;
+}
+
+.header-3-cta .header-3-icon svg {
+    color: #086ad8;
+    font-size: 30px;
+    width: 40px;
+}
+
+.header-3-cta h5 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.primary-color {
+    color: #647589;
+}
+
+
+/* topbar ends */
+
+
+/* mainmenu starts */
+
+.theme-3-bg {
+    background: #086ad8;
+}
+
+.theme-3 nav ul li a {
+    color: #fff;
+    opacity: .7;
+    padding: 20px 0;
+}
+
+.theme-3 nav ul li a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.theme-3 nav ul li ul.submenu {
+    background: #223645;
+}
+
+.theme-3 nav ul li ul.submenu li a {
+    color: #b2bfcf;
+}
+
+.theme-3 nav ul li ul.submenu li:hover a {
+    color: #fff;
+}
+
+.theme-3 nav ul li:hover>a {
+    color: #fff;
+}
+
+.header-search {
+    margin-left: 16px;
+}
+
+
+/* mainmenu ends */
+
+
+/* team starts */
+
+.white-bg {
+    background: #fff;
+}
+
+
+/* team ends */
+
+
+/* homepage 03 ends */
